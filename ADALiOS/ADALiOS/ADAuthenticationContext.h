@@ -26,11 +26,11 @@
 
 #if TARGET_OS_IPHONE
 //iOS:
-#   include <UIKit/UIKit.h>
-typedef UIWebView WebViewType;
+#include <UIKit/UIKit.h>
+typedef UIView WebViewType;
 #else
 //OS X:
-#   include <WebKit/WebKit.h>
+#include <WebKit/WebKit.h>
 typedef WebView   WebViewType;
 #endif
 
