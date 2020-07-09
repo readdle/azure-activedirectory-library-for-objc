@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ADAL"
-  s.version      = "1.3.0-spark"
+  s.version      = "1.2.10-spark"
   s.summary      = "The ADAL SDK for iOS gives you the ability to add Azure Identity authentication to your application"
 
   s.description  = <<-DESC
